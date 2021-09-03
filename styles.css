@@ -1,0 +1,5 @@
+.ejemplo-text::after {
+    content: " <- Hola!!!!!!";
+  color: violet;
+}
+
