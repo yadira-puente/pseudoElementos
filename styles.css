@@ -8,3 +8,7 @@ q::before{
     content: ":)";
     color: red;
 }
+::first-letter {
+    color:blue;
+  font-size: 130%;
+}
