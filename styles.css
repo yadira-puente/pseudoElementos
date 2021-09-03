@@ -36,3 +36,6 @@ input::placeholder {
     text-decoration: underline rgb(0, 255, 42);
     color:rgb(0, 255, 42);
   }
+/*selection*/
+p::-moz-selection { color: white;  background: black; }
+p::selection      { color: white;  background: black; }
