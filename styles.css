@@ -6,9 +6,12 @@
 /*pseudoelemntos before*/
 q::before{
     content: ":)";
-    color: red;
 }
-::first-letter {
+p::first-letter {
     color:blue;
   font-size: 130%;
+}
+/*::first-line*/
+p::first-line {
+    color: pink;
 }
