@@ -1,5 +1,10 @@
+/* pseudoelemento affter*/
 .ejemplo-text::after {
     content: " <- Hola!!!!!!";
   color: violet;
 }
-
+/*pseudoelemntos before*/
+q::before{
+    content: ":)";
+    color: red;
+}
