@@ -7,6 +7,7 @@
 q::before{
     content: ":)";
 }
+/*first::first-letter*/
 p::first-letter {
     color:blue;
   font-size: 130%;
@@ -24,5 +25,9 @@ input::placeholder {
   /*::marker*/
   ul li::marker {
     color:violet;
-    font-size: 1.5em;
+    font-size: 1g.5em;
+  }
+  /*spelling error*/
+  ::spelling-error  {
+    text-decoration: wavy red;
   }
