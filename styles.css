@@ -31,3 +31,8 @@ input::placeholder {
   ::spelling-error  {
     text-decoration: wavy red;
   }
+  /*grammar error*/
+::grammar-error {
+    text-decoration: underline rgb(0, 255, 42);
+    color:rgb(0, 255, 42);
+  }
