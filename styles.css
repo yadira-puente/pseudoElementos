@@ -15,3 +15,14 @@ p::first-letter {
 p::first-line {
     color: pink;
 }
+/*placeholder*/
+input::placeholder {
+    color: red;
+    font-size: 1.2em;
+    font-style: italic;
+  }
+  /*::marker*/
+  ul li::marker {
+    color:violet;
+    font-size: 1.5em;
+  }
