@@ -39,3 +39,37 @@ input::placeholder {
 /*selection*/
 p::-moz-selection { color: white;  background: black; }
 p::selection      { color: white;  background: black; }
+/*backdrop*/
+.box {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1;
+ -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(10px);
+  max-width: 100%;
+  max-height: 100%;
+  padding: 20px 40px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url(https://picsum.photos/id/1080/6858/4574), linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
+  background-position: right, right;
+  background-repeat: no-repeat;
+  background-size: small;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  width: 50%;
+}
